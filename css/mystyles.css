@@ -1,0 +1,79 @@
+.body{
+background-color: rgba(177, 177, 177, 0.897);
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+font-size: 14px
+
+}
+.headersizexl{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.headersize{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.textsize{
+    font-size: 30px
+}
+
+.common{
+    text-align: center;
+}
+
+.header{
+background-color: black;
+color: white;
+text-align: center;
+line-height: 100px;
+height:100px;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(109, 107, 107);
+    color: black;
+    margin: 0;
+    line-height: 40px;
+    height: 40px;
+}
+
+
+nav a:hover{
+    background-color: lightgrey
+}
+
+a{
+    color: black !important;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold
+}
+.footer{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+img{
+    width: 750px;
+    display: block;
+    margin: 0 auto;
+}
+
+.header, .footer {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+tableauPlaceholder{
+    width:500px;
+}
